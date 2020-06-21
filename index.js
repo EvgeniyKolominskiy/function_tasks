@@ -1,4 +1,4 @@
-/*Task 1*/
+/*Task 1. Cоздать функцию isAdult, которая будет проверять возраст пользователя на совершеннолетие:*/
 
 /**
  *
@@ -17,7 +17,28 @@ function isAdult() {
 
 console.log(isAdult());
 
-/*Task 2*/
+/*Task 2. Создать функцию checkMultiplicity, которая принимает два числа и проверяет кратность первого вторым:*/
 
+/**
+ *
+ * @param a
+ * @param b
+ * @returns {boolean}
+ */
+function checkMultiplicity(a, b) {
+	if (a % b === 0) {
+		return true
+	} else {
+		return false
+	}
+}
 
+console.log(checkMultiplicity(22, 5));
+
+/*Task 3. Проверка возможности треугольника. Создать функцию которая принимает длины треугольника; функция
+ возвращает true если треугольник возможен и false если нет.*/
+
+function triangleIsPossible(a, b, c) {
+
+}
 
