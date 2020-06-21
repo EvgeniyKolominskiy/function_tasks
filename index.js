@@ -86,3 +86,19 @@ function calculatingAreaRhombus(rhombusBaseLength, rhombusHeightLength) {
 console.log(calculatingAreaRhombus(30, 20));
 
 /*Calculating cylinder area*/
+
+/**
+ *
+ * @param radiusOfRotation
+ * @param height
+ * @returns {number}
+ */
+
+function calculatingAreaCylinder(radiusOfRotation, height) {
+ return 2 * Math.PI * radiusOfRotation * (height + radiusOfRotation);
+}
+
+console.log(calculatingAreaCylinder(10, 30));
+
+/*Calculating the area of the rectangle*/
+
