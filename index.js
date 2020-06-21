@@ -102,3 +102,16 @@ console.log(calculatingAreaCylinder(10, 30));
 
 /*Calculating the area of the rectangle*/
 
+/**
+ *
+ * @param lengthA
+ * @param lengthB
+ * @returns {number}
+ */
+
+function calculatingAreaRectangle(lengthA, lengthB ) {
+	return lengthA * lengthB;
+}
+
+console.log(calculatingAreaRectangle(10, 15));
+
