@@ -38,6 +38,14 @@ console.log(checkMultiplicity(22, 5));
 /*Task 3. Проверка возможности треугольника. Создать функцию которая принимает длины треугольника; функция
  возвращает true если треугольник возможен и false если нет.*/
 
+
+/**
+ *
+ * @param sideA
+ * @param sideB
+ * @param sideC
+ * @returns {boolean}
+ */
 function triangleIsPossible(sideA, sideB, sideC) {
 	return sideA + sideB > sideC && sideB + sideC > sideA && sideC + sideA > sideB;
 }
