@@ -72,3 +72,17 @@ console.log(calculationAreaTriangle(20, 15));
 
 /*Calculating the area of a rhombus*/
 
+/**
+ *
+ * @param rhombusBaseLength
+ * @param rhombusHeightLength
+ * @returns {number}
+ */
+
+function calculatingAreaRhombus(rhombusBaseLength, rhombusHeightLength) {
+ return rhombusBaseLength * rhombusHeightLength;
+}
+
+console.log(calculatingAreaRhombus(30, 20));
+
+/*Calculating cylinder area*/
