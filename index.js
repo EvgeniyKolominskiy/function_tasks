@@ -52,3 +52,23 @@ function triangleIsPossible(sideA, sideB, sideC) {
 
 console.log(triangleIsPossible(22, 14, 16));
 
+/*Task 4. Написать функции расчета площадей (поверхности) следующих фигур/тел: ромб, цилиндр, треугольника,
+ прямоугольника*/
+
+/*Calculating the area of a triangle*/
+
+/**
+ *
+ * @param triangleBase
+ * @param triangleHeight
+ * @returns {number}
+ */
+
+function calculationAreaTriangle(triangleBase, triangleHeight) {
+	return triangleBase * triangleHeight / 2;
+}
+
+console.log(calculationAreaTriangle(20, 15));
+
+/*Calculating the area of a rhombus*/
+
